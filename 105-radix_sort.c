@@ -50,7 +50,7 @@ void count_sort_LSD(int *array, size_t size, size_t lsd)
 	}
 
 	for (z = 0; z < size; z++)
-		array[z] = out_arr[nz];
+		array[z] = out_arr[z];
 
 	free(out_arr);
 }

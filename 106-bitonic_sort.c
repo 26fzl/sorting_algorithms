@@ -13,7 +13,7 @@ void swapint(int *l, int *r)
 
 	tmp = *l;
 	*l = *r;
-	*r = temp;
+	*r = tmp;
 }
 
 /**

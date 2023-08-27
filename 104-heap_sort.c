@@ -13,7 +13,7 @@ void stupify(int *array, int heap, int i, int size)
 	int lar = i, lf = 2 * i + 1, ri = 2 * i + 2, t;
 
 	if (lf < heap && array[lf] > array[lar])
-		lar = left;
+		lar = lf;
 	if (ri < heap && array[ri] > array[lar])
 		lar = ri;
 	if (lar != i)
